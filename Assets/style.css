@@ -6,23 +6,32 @@
 
 .header {
     padding: 50px;
-    margin: 20px;
+    margin: auto 0;
     text-align: center;
-    background-color: #FFF0F5;
+    background-color: #5F9EA0;
    
     
 }
 .header h1 {
     float: left;
    font-size: 50px;
+   color: whitesmoke;
 
 
 }
+.header nav 
+    a{
+        color: whitesmoke;
+        text-decoration:none;
+   }
+   
+
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     font-size: 30px;
     flex-direction: column;
+    color: darkgrey;
     
 }
 .hero {
@@ -30,9 +39,8 @@
     width: 100%;
     margin-bottom: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Beach.jpg");
-
     background-size: cover;
     background-position: center;
 }
-}
+
 
