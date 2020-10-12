@@ -17,10 +17,13 @@
     
 }
 .header h1 {
-    float: left;
+   float: left;
    font-size: 50px;
-   color: whitesmoke;
-
+   color: lightslategrey;
+   margin: -9px;
+   border: hidden;
+   padding: 10px;
+   background-color: aliceblue;
 
 }
 .header nav 
@@ -38,15 +41,44 @@
     flex-direction: column;
     color: darkgrey;
     padding-top: 18px;
+    border-bottom: grey solid;
     
 }
 .hero {
     height: 400px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Beach.jpg");
     background-size: cover;
     background-position: center;
 }
+.hero-text {
+    text-align: center;
+    padding-top: 13em;
+    font-size: 18px;
+    font-weight: lighter;
+    color: lightcyan;
+    padding-left: 39em;
+    
+    
+}
+.content1 div {
+    margin-top: auto 0;
+    padding-left: 5em;
+    display: flex;
+    flex-direction: column;
+     
+}
+.content1 div h2 {
+    padding: 25px;
+    color: grey;
+    font-size: 30px;
+    font-style: var(--style);
+}
 
-
+.content1 div p{
+    margin-top: 20px;
+    font-size: 24px;
+    position: relative;
+    padding-right: 20px;
+    font-style: var(--style);
+}
