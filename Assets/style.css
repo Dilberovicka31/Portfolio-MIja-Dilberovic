@@ -66,12 +66,14 @@
     padding-left: 5em;
     display: flex;
     flex-direction: column;
+    align-items: left;
+    justify-content: center
      
 }
 .content1 div h2 {
     padding: 25px;
-    color: grey;
-    font-size: 30px;
+    color: darkslategray;
+    font-size: 50px;
     font-style: var(--style);
 }
 
@@ -81,4 +83,9 @@
     position: relative;
     padding-right: 20px;
     font-style: var(--style);
+    color: darkslategray;
+    float: left;
+    
+}
+
 }
