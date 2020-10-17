@@ -18,6 +18,8 @@ body {
     margin: auto 0;
     text-align: end;
     background-color: #31343d;
+    display: flex;
+    justify-content: space-between;
    
     
 }
@@ -64,49 +66,51 @@ body {
     border: hidden;
     background-color: #92ccce;
     padding: 1em;
-    font-size: 15px;
+    font-size: 10px;
     color: #1c1d21;
     padding-right: 35px;
-    flex-direction: column;
-    bottom: 9%;
-    right: 15px;
+    float: right;
     position: relative;
+    top: 150px;
     
     
+    
+}
+.content1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
 }
 .content1 div {
     display: block;
     margin-top: auto 0;
-    padding-left: 5em;
-    float: left;
+    padding-left: 1em;
+    
      
 }
 
 
-.content1 div h2 {
+.content1 h2 {
     padding: 25px;
     color: #445877;
     font-size: 50px;
     font-style: var(--style);
-    float: left;
-    margin-top: 65px;   
+    border-right: solid #445877;
+    margin: 20px 20px 20px 100px;
     
 }
 
-.content1 div img {
-    margin-top: 20px;
-}
-
 .content1 div p{
-    margin-top: 110px;
-    font-size: 24px;
-    float: right;
+    margin: 20px 40px 0 0px;
+    font-size: 19px;
     font-style: var(--style);
     color: #445877;
-    text-align: center;
-    width: 65%;
-    margin-right: 110px;
+    flex-direction: column;
+    position: relative;
+
 }
+
     
 .content2 h2 {
     padding: 25px;
@@ -114,7 +118,9 @@ body {
     font-size: 50px;
     font-style: var(--style);
     float: left;
-    margin: 150px 0 0 111px;
+    margin: 8px 0 0 111px;
+    border-right: solid #445877;
+
 }
 .content2 {
     display: grid;
@@ -129,12 +135,12 @@ body {
 
 }
 .card {
-    width: calc(50% - 14px);
-    min-height: 100px;
+    width: calc(50% - 60px);
+    height: 100px;
     font-size: 10px;
     color: #1c1d21;
     border: solid 3px #92ccce;
-    margin: 7px 7px;
+    margin: 7px 30px;
     position: relative;
 }
     
@@ -142,11 +148,11 @@ body {
 
 .card:first-child {
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
 
 }
 .card:nth-child(1) {
-    background-color: aqua;
+    background-color:#445877;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -185,24 +191,53 @@ body {
     font-size: 50px;
     font-style: var(--style);
     float: left;
-    margin-top: 65px;  
+    margin: 40px 0 0 62px;
+    border-right: solid;
 }
 .footer div ul li {
     display: inline-block;
     margin-left: 160px;
     font-size: 26px;
     flex-direction: column;
-    color: darkgrey;
     padding-top: 18px;
-    text-decoration: underline;
+    margin-top: 130px;
    
+}
+
+a:hover {
+    opacity: 0.5;
+}
+a:link {
+    color: #1c1d21;
+    border-bottom: solid #445877;
 }
  
 @media screen and (max-width: 992px) {
+    .card {
+        width: 75%;
+        
+    }
     
+
 
 }
 
-@media screen and (max-width: 992px){}
+@media screen and (max-width: 768px){
+    .card {
+        width: 100%;
+        
+       
+    
+    }
+}
+@media screen and (max-width: 576) {
+    .card {
+        width: 150%;
+    }
+}
 
-@media screen and (max-width: 992px){}
+@media screen and (max-width: 560px){
+    .card {
+        width: 100%;
+    }
+}
