@@ -21,10 +21,14 @@ When clcking on the nav bar links UI scrolls to the appropriate section.
 
 Footer contains all the contact info, phone email and LinkdIn account. These are all links to make it easier to be contacted, eg clicking on email it automatically populates a template.
 
-Image of the finished product : 
+Image of what the project is supposed to look like : 
 
 ![Portfolio-Mija-Dilberovic](./Assets/02-advanced-css-homework-demo.gif)
 
+Finished product :
+
+![Portfolio-Mija-Dilberovic](./Assets/Portfolio1)
+![Portfolio-Mija-Dilberovic](./Assets/Portfolio2)
 
 
 
