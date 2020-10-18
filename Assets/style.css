@@ -139,6 +139,7 @@ body {
 .content2 div {
     display: flex;
     flex-wrap: wrap;
+    
 
 }
 .card {
@@ -221,8 +222,8 @@ a:link {
 }
  
 @media screen and (max-width: 992px) {
-    .card {
-        width: 100%; 
+    .content2 {
+        width: 150%; 
         
     }
     .content1 h2 {
