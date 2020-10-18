@@ -76,6 +76,11 @@ body {
     
     
 }
+.profile image {
+    background-image: url(./IMG_1150.JPG);
+    border: solid 5px grey;
+    border-radius: 100px;
+}
 .content1 {
     display: flex;
    
@@ -139,7 +144,6 @@ body {
 .content2 div {
     display: flex;
     flex-wrap: wrap;
-    
 
 }
 .card {
@@ -222,8 +226,8 @@ a:link {
 }
  
 @media screen and (max-width: 992px) {
-    .content2 {
-        width: 150%; 
+    .card {
+        width: 100%; 
         
     }
     .content1 h2 {
@@ -248,3 +252,4 @@ a:link {
         
     }
 }
+
