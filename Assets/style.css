@@ -78,7 +78,7 @@ body {
 }
 .content1 {
     display: flex;
-    width: 100%;
+   
     justify-content: space-evenly;
 
 }
@@ -86,6 +86,7 @@ body {
     display: block;
     margin-top: auto 0;
     padding-left: 1em;
+    width: 100%;
     
      
 }
@@ -98,6 +99,7 @@ body {
     font-style: var(--style);
     border-right: solid #445877;
     margin: 20px 20px 20px 100px;
+    width: 16%;
     
 }
 
@@ -108,7 +110,12 @@ body {
     color: #445877;
     flex-direction: column;
     position: relative;
+    width: 75%;
 
+}
+.image {
+    margin: 20px 20px 0 0px;
+    float: left;
 }
 
     
@@ -142,6 +149,7 @@ body {
     border: solid 3px #92ccce;
     margin: 7px 30px;
     position: relative;
+    
 }
     
 
@@ -214,17 +222,19 @@ a:link {
  
 @media screen and (max-width: 992px) {
     .card {
-        width: 75%;
+        width: 100%; 
         
     }
+    .content1 h2 {
+        width: 50%;
+    }
     
-
-
 }
 
 @media screen and (max-width: 768px){
     .card {
-        width: 100%;
+        width: 75%;
+       
         
        
     
@@ -232,12 +242,8 @@ a:link {
 }
 @media screen and (max-width: 576) {
     .card {
-        width: 150%;
-    }
-}
-
-@media screen and (max-width: 560px){
-    .card {
         width: 100%;
+       
+        
     }
 }
