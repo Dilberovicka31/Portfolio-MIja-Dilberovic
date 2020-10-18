@@ -27,7 +27,8 @@ Image of what the project is supposed to look like :
 
 Finished product :
 
-
+![Portfolio-Mija-Dilberovic](./Assets/Portfolio1.png)
+![Portfolio-Mija-Dilberovic](./Assets/Portfolio2.png)
 
 
 
