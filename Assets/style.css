@@ -58,7 +58,7 @@ body {
 .hero {
     height: 300px;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Beach.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/Beach.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -66,7 +66,7 @@ body {
     border: hidden;
     background-color: #92ccce;
     padding: 1em;
-    font-size: 10px;
+    font-size: 15px;
     color: #1c1d21;
     padding-right: 35px;
     float: right;
@@ -83,12 +83,11 @@ body {
 }
 .content1 {
     display: flex;
-   
-    justify-content: space-evenly;
+    width: auto;
 
 }
 .content1 div {
-    display: block;
+    flex: auto;
     margin-top: auto 0;
     padding-left: 1em;
     width: 100%;
@@ -104,7 +103,7 @@ body {
     font-style: var(--style);
     border-right: solid #445877;
     margin: 20px 20px 20px 100px;
-    width: 16%;
+    flex: auto;
     
 }
 
@@ -113,7 +112,7 @@ body {
     font-size: 19px;
     font-style: var(--style);
     color: #445877;
-    flex-direction: column;
+    flex: auto;
     position: relative;
     width: 75%;
 
@@ -121,6 +120,7 @@ body {
 .image {
     margin: 20px 20px 0 0px;
     float: left;
+    flex: auto;
 }
 
     
@@ -130,7 +130,7 @@ body {
     font-size: 50px;
     font-style: var(--style);
     float: left;
-    margin: 8px 0 0 111px;
+    margin: 8px 0 0 120px;
     border-right: solid #445877;
 
 }
@@ -171,23 +171,23 @@ body {
     height: 100%;
 }
 .card:nth-child(2) {
-    background-image: url(./Led\ Wall.jpg);
+    background-image: url(./Images/Led\ Wall.jpg);
     background-size: cover;
     
 }
 .card:nth-child(3) {
-    background-image: url(./pexels-roman-koval-2903063.jpg);
+    background-image: url(./Images/pexels-roman-koval-2903063.jpg);
     background-size: cover;  
 
 }
 .card:nth-child(4) {
-    background-image: url(./pexels-negative-space-160107\ \(1\).jpg);
+    background-image: url(./Images/pexels-negative-space-160107\ \(1\).jpg);
     background-size: cover;
     
 }
 
 .card:nth-child(5) {
-    background-image: url(./Pastel.jpeg);
+    background-image: url(./Images/Pastel.jpeg);
     background-size: cover;
     
 }
