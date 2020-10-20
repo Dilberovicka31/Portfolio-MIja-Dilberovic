@@ -23,7 +23,7 @@ Footer contains all the contact info, phone email and LinkedIn account. These ar
 
 Image of what the project is supposed to look like : 
 
-![Portfolio-Mija-Dilberovic](./Assets/02-advanced-css-homework-demo.gif)
+![Portfolio-Mija-Dilberovic](./Assets/Images/02-advanced-css-homework-demo.gif)
 
 Finished product :
 
