@@ -179,13 +179,13 @@ body {
 
 }
 .card:nth-child(4) {
-    background-image: url(./Images/pexels-negative-space-160107\ \(1\).jpg);
+    background-image: url(./Images/Pastel.jpeg);
     background-size: cover;
     
 }
 
 .card:nth-child(5) {
-    background-image: url(./Images/Pastel.jpeg);
+    background-image: url(./Images/pexels-photo-1779487.jpeg);
     background-size: cover;
     
 }
@@ -223,33 +223,34 @@ a:link {
     border-bottom: solid #445877;
 }
  
-@media screen and (max-width: 992px) {
-    .card {
-        width: 100%; 
-        
-    }
-    .content1 h2 {
-        width: 50%;
-    }
+
     
-}
+
 
 @media screen and (max-width: 768px){
     .card {
-        width: 75%; 
-       
-    
+
+        width: 100%; 
     }
     .content1 h2 {
-    
-        text-align: left;
+        
+        width: 40%;
+    }
+
+    .content1 {
+        
+        width: 100%;
 
     }
-}
-@media screen and (max-width: 576) {
-    .card {
+    .content2 {
         width: 100%;
-       
-        
+    }
+    .header{
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        text-align: left;
     }
 }
+
