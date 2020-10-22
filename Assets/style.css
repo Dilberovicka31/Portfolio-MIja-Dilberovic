@@ -236,11 +236,14 @@ a:link {
 
 @media screen and (max-width: 768px){
     .card {
-        width: 75%;
-       
-        
+        width: 75%; 
        
     
+    }
+    .content1 h2 {
+    
+        text-align: left;
+
     }
 }
 @media screen and (max-width: 576) {
