@@ -27,8 +27,8 @@ Image of what the project is supposed to look like :
 
 Finished product :
 
-![Portfolio-Mija-Dilberovic](./Assets/Images/Portfolio1.png)
-![Portfolio-Mija-Dilberovic](./Assets/Images/Portfolio2.png)
+![Portfolio-Mija-Dilberovic](./Assets/Images/Portfolio.png)
+
  Deployed website link : https://dilberovicka31.github.io/Portfolio-MIja-Dilberovic/
 
 
