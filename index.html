@@ -4,65 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mija Dilberovic Portfolio</title>
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 
-<header class="header">
+<header class="header d-flex">
 
     <h1>Mija Dilberovic</h1>
 
     <nav>
         <ul>
             
-            <li><a href="#About me">About me</a></li>
-            <li><a href="#Contact Info">Contact Info</a></li>
-            <li><a href="#Work">Work</a></li>
+            <li id="home"><a href="#About me">Home</a></li>
+            <li id="contact"><a href="#Contact Info">Contact Info</a></li>
+            <li id="work"><a href="#Work">Work</a></li>
         </ul>
     </nav>
 
 </header>
 
-<div class="hero">
 
-    <div class="hero-text">
-        
-        <h1>"Have no fear of perfection -- you’ll never reach it." -- Salvador Dali, artist</h1>
+<body>
+
+<section class="d-flex justify-content-center " id="content1">
+    <div class="blurred-image"></div>
+    <img src="./Assets/Images/IMG_1150.JPG" height="700px" width="700px" class="rounded-circle" alt="profile image">
+
+    <p id="aboutMe" class="d-flex justify-content-center">Hi, my name is Mia and I'm a full stack developer. <br><br>My love for art and design pushed me in a new adventures and I have decided to venture into web development.</p>
     
-    </div>
-
-</div> 
-
-<body style="background-color: #eeeef7;">
-
-<section class="content1">
-
-    <h2 class="title">About<br>Me</h2>
-
-    <div id="About me">
-
-        <img src="./Assets/Images/IMG_1150.JPG" height="150px" width="150px" class="image">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet feugiat lorem a consectetur. Aenean a tortor vel lorem pulvinar ultrices quis ut lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis velit sed euismod consectetur. Ut finibus, lorem et finibus vulputate, odio purus gravida urna, sit amet malesuada nunc dui ac odio. Curabitur iaculis urna mi, sed porttitor ipsum auctor vel. Nunc hendrerit ante vitae semper auctor.</p>
-    
-    </div>
 
 </section>
 
-<section class="content2">
+<section id="content2" class="content2 d-flex">
     
 
-    
-    <h2>Work</h2>
-
-    <div id="Work">
+    <div id="Work" class="d-flex">
      
-        <a href="#" class="card">
+        <a href=" https://uwcode-group-5.github.io/State-COVID-Tracker/" class="card justify-content-center">
 
-           <span>
+           <span class="justify-content-center">
                
-            <h3> Surf Report</h3>
-            <em>MERN Stack</em>
+            <h3></h3>
+            <em>State-COVID-Tracker</em>
 
           </span>
 
@@ -125,7 +110,7 @@
 
 <footer class="footer">
     
-    <div id="Contact Info">
+    <div id="contact-info">
 
         <h1>Contact<br>Me</h1>
 
@@ -137,7 +122,8 @@
     
     </div>
 </footer>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src="./Assets/script.js"></script>
 </body>
 
 </html>
