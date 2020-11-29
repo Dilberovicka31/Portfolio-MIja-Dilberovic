@@ -52,221 +52,53 @@ body {
     flex-direction: column;
     color: darkgrey;
     padding-top: 18px;
-    /* text-decoration: underline; */
+    
     
     
 }
-/* .hero {
-    height: 300px;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/Beach.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.hero-text {
-    border: hidden;
-    background-color: #92ccce;
-    padding: 1em;
-    font-size: 15px;
-    color: #1c1d21;
-    padding-right: 35px;
-    float: right;
-    position: relative;
-    top: 150px;
-    
-    
-    
-} */
-/* .profile image {
-    background-image: url(./IMG_1150.JPG);
-    border: solid 5px grey;
-    border-radius: 100px;
-} */
-#content1 {
-    display: block;
-    display: flex;
-    flex-wrap: wrap;
 
-}
-/* .content1 div {
-    flex: 4 0 0;
-    padding-left: 1em;
+
+#profile-image{
+    justify-content: center;
    
-} */
+}
 
 
-/* .content1 h2 {
-    padding: 25px;
-    color: #445877;
-    font-size: 50px;
-    font-style: var(--style);
-    border-right: solid #445877;
-    margin: 20px 20px 20px 100px;
-    
-} */
-#aboutMe{
+#first{
     font-size: 40px;
     color: whitesmoke;
     text-shadow: grey;
-    padding: 0 10em 0 10em;
+    padding-left: 100px;
+    justify-content: center;
     
 
 }
+.card{
+    box-shadow: 25px 25px 50px 0 lightgray, -25px -25px 50px 0 lightgray;
+    width: 50%;
+    min-height: 200px;
+    font-size: 30px;
+   
+
+    
+    
+}
 img{
+    
  box-shadow: 25px 25px 50px 0 lightgray, -25px -25px 50px 0 lightgray;
 }
 
 
-#content2 {
-    display: none;
-    flex-wrap: wrap;
-    width: 100%;
-
+.btn{
+    font-size: 30px;
 }
 
-.content2 div {
-    display: none;
-    flex-wrap: wrap;
-    width: 75%;
-}
-
-.card {
-    display: none;
-    width: calc(50% - 60px);
-    height: 100px;
-    font-size: 10px;
-    color: #1c1d21;
-    border: solid 3px #92ccce;
-    margin: 7px 30px;
-    position: relative;
-    
-}
-    
-
-
-.card:first-child {
-    width: 100%;
-    min-height: 300px;
-
-}
-.card:nth-child(1) {
-    justify-content: center;
-    background-image: url(./Images/Screen\ Shot\ .png);
-    background-size: cover;
-    
-}
-.card:nth-child(2) {
-    background-image: url(./Images/Led\ Wall.jpg);
-    background-size: cover;
-    
-}
-.card:nth-child(3) {
-    background-image: url(./Images/pexels-roman-koval-2903063.jpg);
-    background-size: cover;  
-
-}
-.card:nth-child(4) {
-    background-image: url(./Images/Pastel.jpeg);
-    background-size: cover;
-    
-}
-
-.card:nth-child(5) {
-    background-image: url(./Images/pexels-photo-1779487.jpeg);
-    background-size: cover;
-    
-}
-
-.card span {
-    position: absolute;
-    bottom: 20px;
-    background-color: #92ccce;
-
-}
-.footer h1{
-    display: none;
-    padding: 25px;
-    color: #445877;
-    font-size: 50px;
-    font-style: var(--style);
-    float: left;
-    margin: 40px 0 0 62px;
-    border-right: solid;
-}
-.footer div ul li {
-    display: none;
-    margin-left: 160px;
-    font-size: 26px;
-    flex-direction: column;
-    padding-top: 18px;
-    margin-top: 85px;
-   
-}
 
 a:hover {
     opacity: 0.5;
 }
-/* a:link {
-    color: #1c1d21;
-    border-bottom: solid #445877;
-} */
- 
+
 
     
 
 
-/* @media screen and (max-width: 600px){
-    .header {
-        flex: auto;
-        flex-wrap: wrap;
-    }
-    .header h1 {
-        font-size: 30px;
-
-    }
-    .header nav ul li {
-        font-size: 20px;
-    } */
-    /* .hero-text {
-        flex-wrap: wrap;
-        font-size: 20px;
-    } 
-    
-    .card {
-
-        width: 100%; 
-    }
-    .content1 {
-        
-        flex-wrap: wrap;
-    
-
-    }
-    .content1 h2 {
-      display: contents;
-        font-size: 20px;
-
-    }
-
-    
-    .content2 {
-        flex-wrap: wrap;
-    }
-    .content2 h2 {
-        display: contents;
-        font-size: 20px;
-    }
-   
-    
-    .footer {
-       flex-wrap: wrap;
-       flex: auto;
-       
-     }
-     .footer h1 {
-         display: contents;
-         font-size: 20px;
-     }
-    
-
-    } */
