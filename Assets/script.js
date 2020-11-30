@@ -23,7 +23,9 @@ $("#contact").click(function () {
 });
 
 $("#home").click(function () {
-  $("#projectsAll").hide();
+  $("#project1").hide();
+  $("#project2").hide();
+  $("#project3").hide();
   $("#contact-info").hide();
   $("#first").show(1000);
 });

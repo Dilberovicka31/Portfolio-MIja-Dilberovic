@@ -8,8 +8,11 @@
 
 }
 body {
-    background-color: #c2b6b6;
-    background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%);
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    
+
+    
     font-family: "Source+Sans+Pro&display=swap";
 
 }
@@ -68,7 +71,6 @@ body {
     font-size: 40px;
     color: whitesmoke;
     text-shadow: grey;
-    padding-left: 100px;
     justify-content: center;
     
 
@@ -93,12 +95,34 @@ img{
     font-size: 30px;
 }
 
+.card-img-top{
+    background-size: cover;
+    background-position-y: center;
+    height: 300px;
+}
 
 a:hover {
     opacity: 0.5;
 }
 
-
+a:link{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+footer ul li {
+    text-align: center;
+}
+    
+/* @media (min-width: 576px) {
+    #first{
+        /* font-size: 50px; */
+        /* flex-direction: row; */
+    /* }
+    #content2{
+        flex-direction: row;
+    } */
     
 
+ /* } */ 
 

@@ -11,7 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 
-<header id="header" class="header d-flex justify-content-between">
+<div class="container-fluid">
+<header id="header" class="header d-flex justify-content-between z-index">
 
     <h1>Mija Dilberovic</h1>
 
@@ -30,90 +31,42 @@
 
 <body>
 
-<section class="d-flex" id="content1">
-    <div id="first">
-    <img src="./Assets/Images/IMG_1150.JPG" height="500px" width="500px" id="profile-image" class="rounded-circle" alt="profile image"  style="display: block;">
+<section class="d-flex flex-column" id="content1">
+    <div id="first" class="display-block mx-auto">
+    <img src="./Assets/Images/IMG_1150.JPG" height="500px" width="500px" id="profile-image" class="rounded-circle mx-auto d-block img-fluid" alt="profile image">
 
-    <p id="aboutMe" style="display: block;">Hi, my name is Mia. I come from a small city called Mostar, located in Bosnia and Herzegovina. I moved to the US 7 years ago and have been working in all kinds of industries, mostly customer services. I am currently taking a certificate program to become a full stack developer. My love for art and design is what pushed me in this direction and I am as passionate about web development as I am about creating art.</p>
+    <p id="aboutMe" class="text-align-center p-5
+    ">Hi, my name is Mia. I come from a small city called Mostar, located in Bosnia and Herzegovina. I moved to the US 7 years ago and have been working in all kinds of industries, mostly customer services. I am currently taking a certificate program to become a full stack developer. My love for art and design is what pushed me in this direction and I am as passionate about web development as I am about creating art.</p>
 </div>
 
 </section>
 
 
-<section id="content2" class="d-flex flex-column justify-content-center">
+<section id="content2" class="d-flex flex-column">
 
   
-    <div id="project1" class="card justify-content-center" >
-  
-      <p>State-COVID-Tracker</p>
-      <a class="button justify-content-center" href="https://uwcode-group-5.github.io/State-COVID-Tracker/">Project</a>
+    <div id="project1" class="card display-block mx-auto" style="width: 20em;">
+      <img class="card-img-top" src="./Assets/Images/covid.jpg" alt="Card image cap">
+      <p>STATE COVID TRACKER</p>
+      <a class="button justify-content-center bg-light" href="https://uwcode-group-5.github.io/State-COVID-Tracker/">Project</a>
        
       </div><br>
 
-      <div id="project2" class="card justify-content-center" >
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <p>State-COVID-Tracker</p>
-        <a class="button justify-content-center" href="https://uwcode-group-5.github.io/State-COVID-Tracker/">Project</a>
+      <div id="project2" class="card display-block mx-auto" style="width: 20em;">
+        <img class="card-img-top" src="./Assets/Images/screencapture-dilberovicka31-github-io-WEATHER-FORECAST-2020-11-29-16_04_09.png" alt="Card image cap">
+        <p>WEATHER-FORECAST</p>
+        <a class="button justify-content-center" href="https://dilberovicka31.github.io/WEATHER-FORECAST/">Project</a>
          
         </div><br>
 
-        <div id="project3" class="card justify-content-center" >
-  
-          <p>State-COVID-Tracker</p>
-          <a class="button justify-content-center" href="https://uwcode-group-5.github.io/State-COVID-Tracker/">Project</a>
+        <div id="project3" class="card display-block mx-auto"style="width: 20em;" >
+          <img class="card-img-top" src="./Assets/Images/Screen Shot 2020-11-29 at 4.11.51 PM.png" alt="Card image cap">
+          <p>PASSWORD GENERATOR</p>
+          <a class="button justify-content-center" href=" https://dilberovicka31.github.io/GeneratePWD/">Project</a>
            
           </div>
         
-      <!-- <a href="https://uwcode-group-5.github.io/State-COVID-Tracker/" class="button"></a> -->
-
-        <!-- <a href="#" class="card">
-
-            <span>
-                
-             <h3> LED Wall</h3>
-             <em>Node/IoT</em>
- 
-           </span>
- 
-           
-         </a>
-
-         <a href="#" class="card">
-
-           <span>
-               
-            <h3> Calculator</h3>
-            <em>React/Javascript/CSS</em>
-
-          </span>
-
-          
-        </a>
-
-        <a href="#" class="card">
-
-            <span>
-                
-             <h3>Pastel Puzzels</h3>
-             <em>MERN Stack</em>
- 
-           </span>
- 
-           
-         </a>
-
-         <a href="#" class="card">
-
-            <span>
-                
-             <h3> Run Buddy</h3>
-             <em>HTML/CSS</em>
- 
-           </span>
- 
-           
-         </a>
-         -->
+      
 
 </section>
 
@@ -125,9 +78,11 @@
         <li><a href="tel:+15095546580">(509)554-6580</a></li>
         <li><a href="mailto:dilberovicm36@gmail.com">dilberovicm36@gmail.com</a></li>
         <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
     </ul>
 
 </footer>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 <script src="./Assets/script.js"></script>
