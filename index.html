@@ -31,8 +31,8 @@
 
 <body>
 
-<section class="d-flex flex-column" id="content1">
-    <div id="first" class="display-block mx-auto">
+<section class="container-fluid" id="content1">
+    <div id="first" class="col-lg">
     <img src="./Assets/Images/IMG_1150.JPG" height="500px" width="500px" id="profile-image" class="rounded-circle mx-auto d-block img-fluid" alt="profile image">
 
     <p id="aboutMe" class="text-align-center p-5
@@ -42,28 +42,36 @@
 </section>
 
 
-<section id="content2" class="d-flex flex-column">
+<section id="content2" class="container-fluid">
 
-  
-    <div id="project1" class="card display-block mx-auto" style="width: 20em;">
+  <div class="row">
+    <div id="project1" class="col-sm-5 ml-5">
       <img class="card-img-top" src="./Assets/Images/covid.jpg" alt="Card image cap">
-      <p>STATE COVID TRACKER</p>
-      <a class="button justify-content-center bg-light" href="https://uwcode-group-5.github.io/State-COVID-Tracker/">Project</a>
+      <p class="text-light">STATE COVID TRACKER</p>
+      <a class="button text-light" href="https://uwcode-group-5.github.io/State-COVID-Tracker/">Project</a>
        
       </div><br>
 
-      <div id="project2" class="card display-block mx-auto" style="width: 20em;">
+      <div id="project2" class="col-sm-5">
         <img class="card-img-top" src="./Assets/Images/screencapture-dilberovicka31-github-io-WEATHER-FORECAST-2020-11-29-16_04_09.png" alt="Card image cap">
-        <p>WEATHER-FORECAST</p>
-        <a class="button justify-content-center" href="https://dilberovicka31.github.io/WEATHER-FORECAST/">Project</a>
+        <p class="text-light">WEATHER-FORECAST</p>
+        <a class="button text-light" href="https://dilberovicka31.github.io/WEATHER-FORECAST/">Project</a>
          
         </div><br>
 
-        <div id="project3" class="card display-block mx-auto"style="width: 20em;" >
+        <div id="project3" class="col-sm-5 ml-5" >
           <img class="card-img-top" src="./Assets/Images/Screen Shot 2020-11-29 at 4.11.51 PM.png" alt="Card image cap">
-          <p>PASSWORD GENERATOR</p>
-          <a class="button justify-content-center" href=" https://dilberovicka31.github.io/GeneratePWD/">Project</a>
+          <p class="text-light">PASSWORD GENERATOR</p>
+          <a class="button text-light" href=" https://dilberovicka31.github.io/GeneratePWD/">Project</a>
            
+        </div>
+
+        <div id="project4" class="col-sm-5">
+          <img class="card-img-top" src="./Assets/Images/covid.jpg" alt="Card image cap">
+          <p class="text-light">STATE COVID TRACKER</p>
+          <a class="button text-light" href="https://uwcode-group-5.github.io/State-COVID-Tracker/">Project</a>
+           
+          </div><br>
           </div>
         
       
@@ -72,15 +80,15 @@
 
 <br>
 
-<footer id="contact-info" class="footer" >
-
+<footer id="contact-info" class="container-fluid" >
+<div class="col">
      <ul>
         <li><a href="tel:+15095546580">(509)554-6580</a></li>
         <li><a href="mailto:dilberovicm36@gmail.com">dilberovicm36@gmail.com</a></li>
-        <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/feed/" class="text-light">LinkedIn</a></li>
+        <li><a href="https://github.com/" class="text-light">GitHub</a></li>
     </ul>
-
+  </div>
 </footer>
 </div>
 

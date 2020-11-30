@@ -26,6 +26,6 @@ $("#home").click(function () {
   $("#project1").hide();
   $("#project2").hide();
   $("#project3").hide();
-  $("#contact-info").hide();
+  $("#contact-info").hide(1000);
   $("#first").show(1000);
 });
