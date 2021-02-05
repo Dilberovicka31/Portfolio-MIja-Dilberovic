@@ -1,108 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mija Dilberovic Portfolio</title>
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mija Dilberovic Portfolio</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/style.css">
 </head>
-
-<div class="container">
-<header id="header" class="container d-flex align-items-center flex-column">
-
-    <h1 class="text-light">Mija Dilberovic</h1>
-
-   
-    <nav>
-        <ul>
-
-            <button id="home" type="button" class="btn btn-link text-light">Home</button>
-            <button id="about" type="button" class="btn btn-link text-light">About Me</button>
-            <button id="work" type="button" class="btn btn-link text-light">Work</button>
-            <button id="contact" type="button" class="btn btn-link text-light">Contact Info</button>
-   
-        </ul>
-    </nav>
-
-</header>
-
-
 <body>
+<div class="container-fluid">
+  <header id="header" class="container d-flex justify-content-space-between flex-column" >
 
-<section class="container d-flex align-items-center flex-column" id="content1">
-    <div id="first" class="mt-5">
-        <img src="./Assets/Images/IMG_1150.JPG" height="500px" width="500px" id="profile-image" class="rounded-circle mx-auto d-block img-fluid" alt="profile image">
-    </div>
+    <nav id="navBg" class="navbar navbar-expand-sm ">
+      <h1 class="text-light font-weight-bold">Mija Dilberovic</h1>
+      <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <div class="align-items-center text-light" id="second">
-          <p class="align-items-center text-light" id="aboutMe">
-    Hi, my name is Mia. I come from a small city called Mostar, located in Bosnia and Herzegovina. I am currently taking a certificate program to become a full stack developer.</p><br>
-    <p style="color: #A6996F;"> My love for art and design is what pushed me in this direction and I am as passionate about web development as I am about creating art.</p><br>
-    <p> So far I have worked on a few projects and have used multiple languages, such as HTML, CSS, JavaScript, Bulma,Bootstrap, jQuery, Node js.</p>
-    </div>
+        <ul id="navLinks" class="navbar-nav ml-auto">
 
-</section>
+          <li id="home" type="button" class="nav-item-active text-light">
+            <a class="nav-link" id="home" href="index.html" style="color: white
+              ;font-size: 30px;">Home</a>
+          </li>
+          <li id="about" type="button" class="nav-item-active">
+            <a class="nav-link" id="aboutme" href="aboutme.html" style="color: white;font-size: 30px;">About Me</a>
+          </li>
+          <li id="work" type="button" class="nav-item-active">
+            <a class="nav-link" id="work" href="work.html" style="color: white;font-size: 30px;">Work</a>
+          </li>
+          <li id="contact" type="button" class="nav-item-active">
+            <a href="contact.html" class="nav-link" id="contact" href="contact.html" style="color: white;font-size: 30px;">Contact Info</a>
+          </li>
+          <li id="art" type="button" class="nav-item-active">
+            <a href="art.html" class="nav-link" id="contact"  style="color: white;font-size: 30px;">Artwork</a>
+          </li>
 
 
-<section id="content2" class="container-fluid">
-
-  <div class="row align-items-center">
-    <div id="project1" class="col-sm-5 mt-5 center-block text-center ">
-      <img class="card-img-top" src="./Assets/Images/screencapture-uwcode-group-5-github-io-State-COVID-Tracker-2020-12-01-13_40_09.png" alt="Image of the project"><br>
-      <p class="text-light" style="font-size: 30PX;"><strong>STATE COVID TRACKER</strong></p>
-      <a class="button text-light" style="font-size: 20px;" href="https://uwcode-group-5.github.io/State-COVID-Tracker/"><strong>Visit Website</strong></a><br>
-      <a class="button text-light" style="font-size: 20px;" href="hhttps://github.com/UWCode-Group-5/State-COVID-Tracker">GitHub Repo</a>
-       
-      </div><br>
-
-      <div id="project2" class="col-sm-5 mt-5 center-block text-center">
-        <img class="card-img-top" src="./Assets/Images/Weather.jpg" alt="Image of the project">
-        <p class="text-light" style="font-size: 30PX;"><strong>WEATHER DASHBOARD</strong></p>
-        <a class="button text-light" style="font-size: 20px;"href="https://dilberovicka31.github.io/WEATHER-FORECAST/"><strong>Visit Website</strong></a><br>
-        <a class="button text-light" style="font-size: 20px;"href="https://github.com/Dilberovicka31/WEATHER-FORECAST">GitHub Repo</a>
-         
-        </div><br>
-
-        <div id="project3" class="col-sm-5 mt-5 center-block text-center" >
-          <img class="card-img-top img-fluid" src="./Assets/Images/Password.jpg" alt="Image of the project"><br>
-          <p class="text-light" style="font-size: 30PX;"><strong>PASSWORD GENERATOR</strong></p>
-          <a class="button text-light" style="font-size: 20px;" href=" https://dilberovicka31.github.io/GeneratePWD/"><strong>Visit Website</strong></a><br>
-          <a class="button text-light" style="font-size: 20px;" href="https://github.com/Dilberovicka31/GeneratePWD">GitHub Repo</a>
-           
-        </div>
-
-        <div id="project4" class="col-sm-5 mt-5 center-block text-center">
-          <img class="card-img-top img-fluid" src="./Assets/Images/Future.jpg" alt="Image of future project"><br>
-          <p class="text-light" style="font-size: 30PX;"><strong>UPCOMING PROJECT</strong></p>
-          <a class="button text-light" style="font-size: 20px;" href="#"><strong>Project</strong></a>
-           
-          </div><br>
-          </div>
+        </ul>
         
-      
+      </div>
+   
+    </nav>
+    <h1 class="col-sm-6" id="initials" >MD</h1>
+    
 
-</section>
+ </div>  
 
-<br>
 
-<footer id="contact-info" >
-<div class="d-flex flex-column">
-     <ul>
-        <li><a href="tel:+15095546580" class="text-light" style="font-size: 30px;">(509)554-6580</a></li>
-        <li><a href="mailto:dilberovicm36@gmail.com" class="text-light" style="font-size: 30px;">dilberovicm36@gmail.com</a></li>
-        <li><a href="./Mija Dilberovic Resume.pdf" class="text-light" style="font-size: 30px;">Resume</a></li>
-        <li><a href="https://www.linkedin.com/feed/" class="text-light" style="font-size: 30px;">LinkedIn</a></li>
-        <li><a href="https://github.com/" class="text-light" style="font-size: 30px;">GitHub</a></li>
-    </ul>
-  </div>
-</footer>
-</div>
+    
+    
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    
+<script
+			src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+		></script>
 <script src="./Assets/script.js"></script>
 </body>
 
