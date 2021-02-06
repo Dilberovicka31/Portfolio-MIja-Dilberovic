@@ -57,7 +57,6 @@ body {
 }
 
 .card{
-    /* box-shadow: 25px 25px 50px 0 lightgray, -25px -25px 50px 0 lightgray; */
     width: 50%;
     min-height: 200px;
     font-size: 30px;
@@ -88,38 +87,29 @@ footer ul li {
     text-align: center;
 }
     
-#second{
-    /* margin-top: 250px; */
-    font-size: 30px;
-    /* margin-left: 150px; */
-}
-#navBg{
-    color:#001a4d;
-}
+
+
 #contact-info{
     margin-top: 200px;
 }
 
 
-#contactInfo{
-    margin-top: 150px;
-}
+
 .container {
     display: flex;
     justify-content: center;
     position: relative;
-    /* max-width: 800px; Maximum width */
-    margin: 0 auto; /* Center it */
+    margin: 0 auto; 
   }
   
   .container .content {
     position: absolute;
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    /* background: rgb(0, 0, 0); Fallback color */
-    /* background: rgba(0, 0, 0, 0.5); Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
-    padding: 20px; /* Some padding */
+    bottom: 0; 
+    background: rgb(200, 200, 200); 
+    background: rgba(125, 120, 120, 0.2); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 20px; 
   }
   .fade-in {
     animation: fadeIn ease 20s;
@@ -153,4 +143,15 @@ footer ul li {
     100% {opacity:1;}
     }
 
+    .animate, .animate span {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
     
+    .animate span { display: inline-block }
+    
+    .rotate { animation-name: rotate; animation-timing-function: ease-in-out }
+    @keyframes rotate {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+    }
